@@ -4,7 +4,7 @@ class Tarea {
     desc = '';
     completadoEn = null;
 
-    constructor( desc ) {
+    constructor( desc ) {//inicializo todas las propiedades
          this.id = uuidv4();
         this.desc = desc;
        // this.id = new Date().getTime();
